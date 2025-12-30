@@ -1,9 +1,7 @@
 package org.sid.ebankingbackend.entities;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import org.sid.ebankingbackend.enums.AccountStatus;
 
 import java.util.Date;
@@ -15,6 +13,7 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+
 public abstract class BankAccount {
 
     @Id
